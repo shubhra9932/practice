@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my page</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>My Webpage</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>home</li>
+            <li>search page
+                <ul>
+                    <li><a href="/google.html">google</a></li>
+                    <li><a href="/youtube.html">youtube</a></li>
+                </ul>
+            </li>
+            <li>about me</li>
+            <li>contact me</li>
+        </ul>
+    </nav>
+    <main>
+        <h2>work ethics</h2>
+        <article>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, quis voluptates architecto aut totam
+            molestiae similique dolorum, fuga deleniti error cum beatae assumenda excepturi, ea eum voluptatem quia
+            minima rem!
+            Non, tempora! Provident, rerum debitis! Expedita distinctio perferendis reprehenderit deleniti magnam.
+            Eveniet eos debitis reiciendis! Aliquid vel similique quis recusandae. Excepturi voluptate inventore autem
+            nostrum eligendi est accusamus nesciunt quidem.
+            Deleniti doloremque animi facilis consequuntur, quisquam rerum nobis libero odit nulla dolorum aliquid in
+            odio dicta ratione labore. Laboriosam voluptas cupiditate itaque impedit voluptatem quae tempore ratione hic
+            eos animi?
+        </article>
+        <div>
+            <h2>profile</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum laudantium reprehenderit dolores debitis
+                corporis velit, placeat soluta pariatur incidunt labore iure maxime optio nihil nostrum nobis autem
+                itaque. Sit, totam.
+                Molestiae tempora dolor deleniti qui aliquam nihil, tenetur quo, ratione sunt tempore deserunt! Corrupti
+                possimus facilis explicabo omnis qui quidem architecto, officia asperiores laudantium doloribus
+                quisquam. Eos nisi alias culpa!
+                Aspernatur amet est ipsa eaque atque aliquam odit error quidem fugiat totam, velit quia libero pariatur
+                perspiciatis assumenda dicta asperiores eveniet expedita similique minima, hic dolorem dolore.
+                Voluptatem, quas aspernatur!</p>
+        </div>
+        <div>
+            <h2>Histoy</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium cum adipisci, laudantium alias
+                quibusdam possimus saepe? Provident id tempora veritatis, corporis, dolorem accusamus vitae dolor sequi
+                voluptas soluta obcaecati nihil?
+                Similique facere optio a consequatur quaerat fugit, mollitia perspiciatis excepturi ex deleniti
+                distinctio, quibusdam assumenda, alias aperiam obcaecati! Unde quod natus amet doloremque minima nobis
+                quam laboriosam molestias ullam voluptatum.</p>
+        </div>
+        <hr>
+        <div>
+            <h3>sample table</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th rowspan="2">brand</th>
+                        <th rowspan="2">origin</th>
+                        <th colspan="3">manufacturer</th>
+                        <th rowspan="2">available in india</th>
+                    </tr>
+                    <tr>
+                        <th>mobile</th>
+                        <th>laptop</th>
+                        <th>hardware</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>asus</td>
+                        <td>taiwan</td>
+                        <td>yes</td>
+                        <td>yes</td>
+                        <td>yes</td>
+                        <td>yes</td>
+                    </tr>
+                    <tr>
+                        <td>msi</td>
+                        <td>taiwan</td>
+                        <td>no</td>
+                        <td>yes</td>
+                        <td>yes</td>
+                        <td>yes</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>sample form checkbox</h3>
+            <form action="">
+                <label for="cbyes">yes</label>
+                <input type="checkbox" name="checkbox" id="cbyes">
+                <label for="cbno">no</label>
+                <input type="checkbox" name="checkbox" id="cbno"><br>
+                <button type="submit">submit</button>
+            </form>
+            <form action="">
+                <h3>sample form other input</h3>
+                <label for="yes">yes</label>
+                <input type="radio" id="yes" name="radio" value="yes"><br>
+                <label for="no">no</label>
+                <input type="radio" id="no" name="radio" value="no"><br>
+                <label for="dont_know">dont know</label>
+                <input type="radio" id="dont_know" name="radio" value="dont know"><br>
+                <label for="brand">select any brand</label>
+                <select name="brand" id="brand">
+                    <option value=""></option>
+                    <option value="asus">asus</option>
+                    <option value="dell">dell</option>
+                    <option value="sony">sony</option>
+                </select>
+                <br>
+                <button type="submit">submit</button>
+                <button type="reset">reset</button>
+                <p><label for="volume">volume level</label>
+                    <input type="range" id="volume" max="10" min="1" name="volume_level">
+                </p>
+                <p>
+                    <label for="more">tell us more</label>
+                    <br>
+                    <textarea name="details" id="more" cols="30" rows="10" placeholder="type here"></textarea>
+                </p>
+                <!-- FORM VALIDATION & MAX MIN MAXLENGTH minlength -->
+            </form>
+            <form action="validation">
+                <h3>Sample validation</h3>
+                <label for="first">enter first name</label>
+                <input type="text" id="first" name="first" minlength="6" maxlength="16" required>
+                <br>
+                <label for="email">email</label>
+                <input type="email" name="email" id="email" required>
+                <br>
+                <label for="userpassword">password</label>
+                <input type="password" name="userpassword" id="userpassword" minlength="8" maxlength="16" required>
+                <br>
+                <label for="number">number</label>
+                <input type="number" id="number" name="number" min="1" max="100" required>
+                <br>
+                <button type="submit">submit</button>
+            </form>
+
+    </main>
+
+    <footer>
+        <p>copy shubhra</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+/* chapter 060 */
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: rgb(17, 0, 255);
+    background-color: burlywood;
+}
+
+button {
+    color: teal;
+}
+
+p {
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Race Registration</title>
+</head>
+<h1>Race registration!!!</h1>
+<form action="race">
+    <div>
+        <label for="first">First name</label>
+        <input type="text" id="first" name="first" minlength="3" placeholder="First Name" required>
+        <label for="last">Last name</label>
+        <input type="text" name="last" id="last" placeholder="Last Name" required>
+        <br>
+    </div>
+    <div>
+        <p><b>Race Type</b></p>
+        <label for="fun">Fun</label>
+        <input type="radio" name="type" id="fun" value="Fun"><br>
+        <label for="half">half</label>
+        <input type="radio" name="type" id="half" value="Half"><br>
+        <label for="full">full</label>
+        <input type="radio" name="type" id="full" value="Full"><br>
+    </div>
+    <div>
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" placeholder="username" minlength="6" maxlength="16" required>
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="password" minlength="8" maxlength="20" required>
+    </div>
+    <div>
+        <label for="age">Select Age Group</label>
+        <select name="age" id="age">
+            <option value=""></option>
+            <option value="under18">Under 18</option>
+            <option value="above18">Above18</option>
+        </select>
+    </div>
+    <div>
+        <button type="submit">Register</button>
+        <button type="reset">Clear Form</button>
+    </div>
+
+</form>
+
+<body>
+
+</body>
+
+</html>
